@@ -55,7 +55,7 @@
     [super viewWillAppear:animated];
     
     //触发 评分／广告
-    if (arc4random() % 100 >= 70) {
+    if (arc4random() % 100 >= 1) {
         if (!_adHasShow) {
             [self pingFen];
             _adHasShow = YES;

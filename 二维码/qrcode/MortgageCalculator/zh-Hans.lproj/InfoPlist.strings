@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  MortgageCalculator
+
+  Created by yangshaohua on 2017/12/29.
+  Copyright © 2017年 yangshaohua. All rights reserved.
+*/
+CFBundleDisplayName = "火星二维码";
+UILaunchStoryboardName = "LaunchScreen_ch";
