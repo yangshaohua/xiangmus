@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "SYTabbarController.h"
 #import <Bugly/Bugly.h>
 #import "IQKeyboardManager.h"
 #import "MLTransitionAnimation.h"
@@ -30,7 +30,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:[[SYTabbarController alloc] init]];
     self.window.rootViewController = navVC;
     [self.window makeKeyAndVisible];
     
@@ -68,7 +68,9 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    
+    UIViewController *vc = [[kRootNavigation viewControllers] lastObject];
+    [vc viewWillAppear:YES];
+    [vc viewDidAppear:YES];
 }
 
 

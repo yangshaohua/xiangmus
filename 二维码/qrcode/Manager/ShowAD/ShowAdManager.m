@@ -38,7 +38,7 @@
 - (void)createAndLoadInterstitial
 {
     self.interstitial =
-    [[GADInterstitial alloc] initWithAdUnitID:kADMob_StartUnitId];
+    [[GADInterstitial alloc] initWithAdUnitID:kADMob_ResultUnitId];
     
     GADRequest *request = [GADRequest request];
     // Request test ads on devices you specify. Your test device ID is printed to the console when
@@ -46,22 +46,6 @@
     request.testDevices = @[ kGADSimulatorID,];
     self.interstitial.delegate = self;
     [self.interstitial loadRequest:request];
-    
-    //获取viewController的视图
-//    [[[UIApplication sharedApplication] keyWindow] addSubview:[self getScreenView]];
-}
-
-- (UIView *)getScreenView
-{
-    if (!_screenView) {
-        //获取LaunchScreen.storyborad
-        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Launch Screen" bundle:nil];
-        
-        //通过使用storyborardID去获取启动页viewcontroller
-        UIViewController *viewController = [storyboard instantiateInitialViewController];
-        _screenView = viewController.view;
-    }
-    return _screenView;
 }
 
 - (void)interstitialDidReceiveAd:(GADInterstitial *)ad

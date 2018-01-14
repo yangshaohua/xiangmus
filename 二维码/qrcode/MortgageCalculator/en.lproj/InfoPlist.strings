@@ -5,5 +5,11 @@
   Created by yangshaohua on 2017/12/29.
   Copyright © 2017年 yangshaohua. All rights reserved.
 */
-CFBundleDisplayName = "MarsQRCode";
+CFBundleDisplayName = "QRCode";
 UILaunchStoryboardName = "LaunchScreen_en";
+
+
+NSCameraUsageDescription = "Allow access to your camera";
+
+NSPhotoLibraryUsageDescription = "Allow access to your album";
+

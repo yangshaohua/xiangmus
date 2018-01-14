@@ -6,35 +6,44 @@
   Copyright © 2017年 yangshaohua. All rights reserved.
 */
 
-"Interest rate table" = "利率表";
+"scan" = "扫描";
 
-"TotalPay" = "还贷总款";
+"create" = "生成";
 
-"TotalLoad" = "贷款总额";
-
-"Interest" = "支付利息";
-
-"PayMonths" = "还款月数";
-
-"EqualInterest" = "等额本息";
-
-"EqualMoney" = "等额本金";
-
-"NO." = "期数";
-
-"Monthly" = "月供";
-
-"Momey" = "本金";
-
-"Interest" = "利息";
+"mine" = "我的";
 
 
-"SurMoney" = "剩余本金";
+"sao yi sao" = "扫一扫";
 
-"Relatives, 5 star praise can unlock more functions oh" = "亲，给5星好评就能解锁更多功能哦";
 
-"NextTime" = "下次再说";
+"scan result" = "扫描结果";
 
-"Unlock" = "立即解锁";
 
-"Please perfect the information" = "请完善信息";
+
+"confirm" = "确定";
+
+"cancel" = "取消";
+
+
+"Unable to identify QRCode in a graph" = "无法识别图中二维码";
+
+
+"Unable to identify QRCode" = "无法识别";
+
+
+"handleing..." = "正在处理...";
+
+
+"The QRCode can be automatically scanned by putting it into the frame" = "将二维码放入框内，即可自动扫描";
+
+
+"Please focus on the QRCode, wait patiently" = "请对准二维码，耐心等候";
+
+"Authorize" = "去授权";
+
+"No Authorize" = "没有授权";
+
+"Please go to the settings - Privacy - Camera license" = "请到设置-隐私-相机中授权";
+
+"copy" = "复 制";
+"copy success" = "复制成功";

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F5C520B21FD8ED51004C071A"
-               BuildableName = "&#x623f;&#x8d37;&#x8ba1;&#x7b97;&#x5668;.app"
+               BuildableName = "&#x4e8c;&#x7ef4;&#x7801;.app"
                BlueprintName = "MortgageCalculator"
                ReferencedContainer = "container:MortgageCalculator.xcodeproj">
             </BuildableReference>
@@ -34,7 +34,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F5C520B21FD8ED51004C071A"
-            BuildableName = "&#x623f;&#x8d37;&#x8ba1;&#x7b97;&#x5668;.app"
+            BuildableName = "&#x4e8c;&#x7ef4;&#x7801;.app"
             BlueprintName = "MortgageCalculator"
             ReferencedContainer = "container:MortgageCalculator.xcodeproj">
          </BuildableReference>
@@ -58,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F5C520B21FD8ED51004C071A"
-            BuildableName = "&#x623f;&#x8d37;&#x8ba1;&#x7b97;&#x5668;.app"
+            BuildableName = "&#x4e8c;&#x7ef4;&#x7801;.app"
             BlueprintName = "MortgageCalculator"
             ReferencedContainer = "container:MortgageCalculator.xcodeproj">
          </BuildableReference>
@@ -77,7 +77,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F5C520B21FD8ED51004C071A"
-            BuildableName = "&#x623f;&#x8d37;&#x8ba1;&#x7b97;&#x5668;.app"
+            BuildableName = "&#x4e8c;&#x7ef4;&#x7801;.app"
             BlueprintName = "MortgageCalculator"
             ReferencedContainer = "container:MortgageCalculator.xcodeproj">
          </BuildableReference>

@@ -5,5 +5,15 @@
   Created by yangshaohua on 2017/12/29.
   Copyright © 2017年 yangshaohua. All rights reserved.
 */
-CFBundleDisplayName = "火星二维码";
+CFBundleDisplayName = "二维码";
+
+
 UILaunchStoryboardName = "LaunchScreen_ch";
+
+
+NSCameraUsageDescription = "允许访问你的相机";
+
+
+
+NSPhotoLibraryUsageDescription = "允许访问你的相册";
+

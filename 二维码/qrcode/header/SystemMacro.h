@@ -81,7 +81,7 @@
 
 #define ColorOfHexAlpha(value, alpha) [UIColor colorWithRed:((value&0xFF0000)>>16)/255.0 green:((value&0xFF00)>>8)/255.0 blue:(value&0xFF)/255.0 alpha:alpha]
 
-#define kSkin_Color  ColorOfHex(0xf5cd48)
+#define kSkin_Color  ColorOfHex(0xFA5856)
 
 //定义日志框架
 #ifdef DEBUG

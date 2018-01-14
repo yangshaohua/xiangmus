@@ -21,7 +21,8 @@
     
     //初始化 google admob
     [GADMobileAds configureWithApplicationID:kADMob_AppId];
-
+   int hh= [GADMobileAds version];
+    
     //bugly
     [self registerBugly];
     //键盘
