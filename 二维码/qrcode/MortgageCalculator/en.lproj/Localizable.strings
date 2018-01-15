@@ -47,3 +47,13 @@
 
 "copy" = "Copy";
 "copy success" = "Copy Success";
+
+"create" = "Create";
+
+"clear" = "clean";
+
+"Please enter content" = "Please enter content";
+
+"QRCode" = "QRCode";
+
+"create qrcode" = "Create QRCode";

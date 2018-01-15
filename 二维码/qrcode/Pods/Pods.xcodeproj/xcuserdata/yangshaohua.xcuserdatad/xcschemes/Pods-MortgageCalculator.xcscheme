@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '66A63EA8A52BBF6EF3A89C97F5A00959'
+               BlueprintIdentifier = '8D8C3452328B97AEE24BEE88A9EFDE74'
                BlueprintName = 'Pods-MortgageCalculator'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-MortgageCalculator.a'>

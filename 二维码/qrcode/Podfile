@@ -8,4 +8,6 @@ pod 'Bugly', '2.4.2'
 pod 'IQKeyboardManager'
 pod 'Masonry', '1.0.2'
 pod 'YYModel', '1.0.4'
+pod 'SDWebImage'
+pod 'AFNetworking'
 end

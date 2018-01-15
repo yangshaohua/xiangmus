@@ -8,9 +8,8 @@
 
 #import "PhotoManager.h"
 @interface PhotoManager ()
-{
-    UIImagePickerController *picker;
-}
+
+@property (strong, nonatomic) UIImagePickerController *picker;
 @end
 @implementation PhotoManager
 + (instancetype)sharedInstance
@@ -23,36 +22,29 @@
     return mediator;
 }
 
+- (void)dealloc {
+    
+}
+
 - (instancetype)init
 {
     if (self = [super init]) {
-        [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
-            switch (status) {
-                case PHAuthorizationStatusAuthorized:
-                    NSLog(@"PHAuthorizationStatusAuthorized");
-                    break;
-                case PHAuthorizationStatusDenied:
-                    NSLog(@"PHAuthorizationStatusDenied");
-                    break;
-                case PHAuthorizationStatusNotDetermined:
-                    NSLog(@"PHAuthorizationStatusNotDetermined");
-                    break;
-                case PHAuthorizationStatusRestricted:
-                    NSLog(@"PHAuthorizationStatusRestricted");
-                    break;
-            }
-        }];
-        
-        picker = [[UIImagePickerController alloc] init];
-        picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
-        picker.delegate = self;
-        picker.allowsEditing = YES;
+        self.picker = [[UIImagePickerController alloc] init];
+        self.picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+        [self.picker addObserver:self forKeyPath:@"delegate" options:NSKeyValueObservingOptionNew context:nil];
+
+        self.picker.delegate = self;
+        self.picker.allowsEditing = YES;
        
     }
     return self;
 }
 
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
+{
 
+    NSLog(@"aaaaa %@", change[NSKeyValueChangeNewKey]);
+}
 #pragma mark UIImagePickerControllerDelegate
 -(void)imagePickerController:(UIImagePickerController*)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
@@ -82,7 +74,7 @@
 
 - (void)takePhoto
 {
-    [kRootNavigation presentViewController:picker animated:YES completion:^{
+    [kRootNavigation presentViewController:self.picker animated:YES completion:^{
         
     }];
 }

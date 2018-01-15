@@ -11,6 +11,7 @@
 #import "DJScanViewController.h"
 //#import "TestBarViewController.h"
 #import "UITabBar+badge.h"
+#import "CreateViewController.h"
 @interface SYTabbarController ()
 //{
 //    SYYoupeiWebVC           *_testVC;
@@ -43,7 +44,7 @@
         DJScanViewController *homeViewController = [[DJScanViewController alloc] init];
         [self setVCTabBarTitleWithVC:homeViewController title:NSLocalizedString(@"scan", nil) normalImage:[[UIImage imageNamed:@"tab_home"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectImage:[[UIImage imageNamed:@"tab_homeselected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
         
-        UIViewController *orderViewController = [[UIViewController alloc] init];
+        CreateViewController *orderViewController = [[CreateViewController alloc] init];
         [self setVCTabBarTitleWithVC:orderViewController title:NSLocalizedString(@"create", nil) normalImage:[[UIImage imageNamed:@"tab_order"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectImage:[[UIImage imageNamed:@"tab_orderselected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
         
 

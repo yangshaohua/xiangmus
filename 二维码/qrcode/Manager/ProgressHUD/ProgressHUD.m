@@ -625,24 +625,26 @@ static NSUInteger _isShow;
 {
 	@autoreleasepool
 	{
-        
-		double length = label.text.length;
-		NSTimeInterval sleep = length * 0.1 + 0.5;
-		
-        if (self.showForTime > 0) {
-            sleep = self.showForTime;
-        }
-        if (sleep < 1) {
-            sleep = 1;
-        }
-        
-		[NSThread sleepForTimeInterval:sleep];
         dispatch_async(dispatch_get_main_queue(), ^{
-            [self hudHide];
+            double length = label.text.length;
+            NSTimeInterval sleep = length * 0.1 + 0.5;
+            
+            if (self.showForTime > 0) {
+                sleep = self.showForTime;
+            }
+            if (sleep < 1) {
+                sleep = 1;
+            }
+            
+            [NSThread sleepForTimeInterval:sleep];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self hudHide];
+            });
+            
+            _isShow = NO;
+            self.showForTime = 0;
         });
 		
-        _isShow = NO;
-        self.showForTime = 0;
 	}
 }
 

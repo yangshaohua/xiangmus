@@ -66,6 +66,7 @@
     self.textView.font = [UIFont systemFontOfSize:14];
     self.textView.layer.masksToBounds = YES;
     self.textView.layer.cornerRadius = 2;
+    self.textView.editable = NO;
     self.textView.layer.borderColor = kSkin_Color.CGColor;
     self.textView.layer.borderWidth = 0.5;
     [self.view addSubview:self.textView];

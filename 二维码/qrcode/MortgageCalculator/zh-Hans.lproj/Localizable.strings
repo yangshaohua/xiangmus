@@ -47,3 +47,19 @@
 
 "copy" = "复 制";
 "copy success" = "复制成功";
+
+
+"create" = "生成";
+
+
+"clear" = "清除";
+
+"Please enter content" = "请输入内容";
+
+"QRCode" = "二维码";
+
+"create qrcode" = "生成二维码";
+
+
+
+

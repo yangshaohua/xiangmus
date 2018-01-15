@@ -11,6 +11,9 @@
 		297FE1F51FE4C242005A82FD /* FCPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 297FE1F41FE4C242005A82FD /* FCPickerView.m */; };
 		297FE1F81FE56FD6005A82FD /* FCDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 297FE1F71FE56FD6005A82FD /* FCDatePickerView.m */; };
 		F50636B2200B142E00542BB8 /* PhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F50636B1200B142E00542BB8 /* PhotoManager.m */; };
+		F50636B6200B557400542BB8 /* CreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50636B5200B557400542BB8 /* CreateViewController.m */; };
+		F50636B9200B59DC00542BB8 /* CreateResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50636B8200B59DC00542BB8 /* CreateResultViewController.m */; };
+		F50636BD200B5B0C00542BB8 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50636BC200B5B0C00542BB8 /* MineViewController.m */; };
 		F522F6932007B42700634C86 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = F522F6902007B42700634C86 /* UITabBar+badge.m */; };
 		F522F6942007B42700634C86 /* UITabBar+customBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F522F6922007B42700634C86 /* UITabBar+customBar.m */; };
 		F54F67F01FDF7C2600D78013 /* CalculatorResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F54F67EF1FDF7C2600D78013 /* CalculatorResultModel.m */; };
@@ -22,6 +25,9 @@
 		F54F68211FE77FB500D78013 /* lilvbiao.html in Resources */ = {isa = PBXBuildFile; fileRef = F54F68191FE7702000D78013 /* lilvbiao.html */; };
 		F54F682D1FE930BE00D78013 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F54F682C1FE930B200D78013 /* ProgressHUD.m */; };
 		F54F682E1FE930C600D78013 /* ProgressHUD.h in Resources */ = {isa = PBXBuildFile; fileRef = F54F682B1FE930B200D78013 /* ProgressHUD.h */; };
+		F5746389200C6A32008A3596 /* QRCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5746388200C6A32008A3596 /* QRCodeManager.m */; };
+		F574638C200C7308008A3596 /* UIViewController+UploadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F574638A200C7307008A3596 /* UIViewController+UploadImage.m */; };
+		F574638F200C735C008A3596 /* UploadImageAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F574638E200C735C008A3596 /* UploadImageAlertView.m */; };
 		F5A4B28B1FDCE5CE00D0BC37 /* SYListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4B2811FDCE3AF00D0BC37 /* SYListCell.m */; };
 		F5A4B28C1FDCE5D400D0BC37 /* SYListCell.h in Resources */ = {isa = PBXBuildFile; fileRef = F5A4B2801FDCE3AF00D0BC37 /* SYListCell.h */; };
 		F5A4B2A71FDD12BA00D0BC37 /* MLTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4B2A41FDD112200D0BC37 /* MLTransitionAnimation.m */; };
@@ -65,6 +71,12 @@
 		B79BA38692A8DFFDB30867CC /* libPods-MortgageCalculator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MortgageCalculator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50636B0200B142E00542BB8 /* PhotoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoManager.h; sourceTree = "<group>"; };
 		F50636B1200B142E00542BB8 /* PhotoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoManager.m; sourceTree = "<group>"; };
+		F50636B4200B557400542BB8 /* CreateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateViewController.h; sourceTree = "<group>"; };
+		F50636B5200B557400542BB8 /* CreateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateViewController.m; sourceTree = "<group>"; };
+		F50636B7200B59DC00542BB8 /* CreateResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateResultViewController.h; sourceTree = "<group>"; };
+		F50636B8200B59DC00542BB8 /* CreateResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateResultViewController.m; sourceTree = "<group>"; };
+		F50636BB200B5B0C00542BB8 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		F50636BC200B5B0C00542BB8 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		F522F68F2007B42700634C86 /* UITabBar+badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+badge.h"; sourceTree = "<group>"; };
 		F522F6902007B42700634C86 /* UITabBar+badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+badge.m"; sourceTree = "<group>"; };
 		F522F6912007B42700634C86 /* UITabBar+customBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+customBar.h"; sourceTree = "<group>"; };
@@ -82,6 +94,12 @@
 		F54F68191FE7702000D78013 /* lilvbiao.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = lilvbiao.html; sourceTree = "<group>"; };
 		F54F682B1FE930B200D78013 /* ProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		F54F682C1FE930B200D78013 /* ProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		F5746387200C6A32008A3596 /* QRCodeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeManager.h; sourceTree = "<group>"; };
+		F5746388200C6A32008A3596 /* QRCodeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeManager.m; sourceTree = "<group>"; };
+		F574638A200C7307008A3596 /* UIViewController+UploadImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UploadImage.m"; sourceTree = "<group>"; };
+		F574638B200C7308008A3596 /* UIViewController+UploadImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UploadImage.h"; sourceTree = "<group>"; };
+		F574638D200C735B008A3596 /* UploadImageAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadImageAlertView.h; sourceTree = "<group>"; };
+		F574638E200C735C008A3596 /* UploadImageAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadImageAlertView.m; sourceTree = "<group>"; };
 		F5A4B2801FDCE3AF00D0BC37 /* SYListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYListCell.h; sourceTree = "<group>"; };
 		F5A4B2811FDCE3AF00D0BC37 /* SYListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYListCell.m; sourceTree = "<group>"; };
 		F5A4B28E1FDCE9C100D0BC37 /* NSString+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
@@ -111,6 +129,7 @@
 		F5EE9E102007BB6B0072E6CF /* DJScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJScanViewController.h; sourceTree = "<group>"; };
 		F5EE9E112007BB6B0072E6CF /* DJScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJScanViewController.m; sourceTree = "<group>"; };
 		F5EE9E132007BEE70072E6CF /* aigei_com.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aigei_com.mp3; sourceTree = "<group>"; };
+		F5F6E906200CAFAE009F6E64 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F5F790B31FD97100006CEF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5F790B41FD97100006CEF69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5F790B71FD9712C006CEF69 /* SYDebugToolMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYDebugToolMacro.h; sourceTree = "<group>"; };
@@ -166,6 +185,7 @@
 		5DE4F09AAE329F867AEA3DE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F5F6E906200CAFAE009F6E64 /* AVFoundation.framework */,
 				B79BA38692A8DFFDB30867CC /* libPods-MortgageCalculator.a */,
 			);
 			name = Frameworks;
@@ -178,6 +198,24 @@
 				F50636B1200B142E00542BB8 /* PhotoManager.m */,
 			);
 			path = PhotoManager;
+			sourceTree = "<group>";
+		};
+		F50636B3200B554F00542BB8 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				F50636B4200B557400542BB8 /* CreateViewController.h */,
+				F50636B5200B557400542BB8 /* CreateViewController.m */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		F50636BA200B5B0300542BB8 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F50636BB200B5B0C00542BB8 /* MineViewController.h */,
+				F50636BC200B5B0C00542BB8 /* MineViewController.m */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 		F522F68E2007B42700634C86 /* UITabBar */ = {
@@ -194,6 +232,7 @@
 		F54F67FC1FDFB0E200D78013 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				F5746386200C6A1F008A3596 /* QRCode */,
 				F50636AF200B141E00542BB8 /* PhotoManager */,
 				F54F682A1FE930B200D78013 /* ProgressHUD */,
 				F54F68021FDFB2FF00D78013 /* ShowAD */,
@@ -238,9 +277,20 @@
 			path = ProgressHUD;
 			sourceTree = "<group>";
 		};
+		F5746386200C6A1F008A3596 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				F5746387200C6A32008A3596 /* QRCodeManager.h */,
+				F5746388200C6A32008A3596 /* QRCodeManager.m */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
 		F5A4B27F1FDCE3AF00D0BC37 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F574638D200C735B008A3596 /* UploadImageAlertView.h */,
+				F574638E200C735C008A3596 /* UploadImageAlertView.m */,
 				297FE1F21FE4C232005A82FD /* FCPickerView */,
 				F5A4B2801FDCE3AF00D0BC37 /* SYListCell.h */,
 				F5A4B2811FDCE3AF00D0BC37 /* SYListCell.m */,
@@ -255,7 +305,11 @@
 			children = (
 				F5E0857C2008D4D4009A2637 /* SYTabbarController.h */,
 				F5E0857B2008D4D4009A2637 /* SYTabbarController.m */,
+				F574638B200C7308008A3596 /* UIViewController+UploadImage.h */,
+				F574638A200C7307008A3596 /* UIViewController+UploadImage.m */,
+				F50636BA200B5B0300542BB8 /* Mine */,
 				F5A4B2901FDCF24C00D0BC37 /* Home */,
+				F50636B3200B554F00542BB8 /* Create */,
 				F5E0857F2008E21F009A2637 /* CreateResult */,
 				F5E0857E2008E21F009A2637 /* ScanResult */,
 			);
@@ -359,6 +413,8 @@
 		F5E0857F2008E21F009A2637 /* CreateResult */ = {
 			isa = PBXGroup;
 			children = (
+				F50636B7200B59DC00542BB8 /* CreateResultViewController.h */,
+				F50636B8200B59DC00542BB8 /* CreateResultViewController.m */,
 			);
 			path = CreateResult;
 			sourceTree = "<group>";
@@ -565,11 +621,14 @@
 				F5A4B28B1FDCE5CE00D0BC37 /* SYListCell.m in Sources */,
 				F5F790E41FD98EFB006CEF69 /* SYTopNaviBarView.m in Sources */,
 				F5EE9E122007BB6B0072E6CF /* DJScanViewController.m in Sources */,
+				F50636B9200B59DC00542BB8 /* CreateResultViewController.m in Sources */,
 				F5F790D21FD98BA9006CEF69 /* SYTabbedHeaderItem.m in Sources */,
 				F5F790D31FD98BA9006CEF69 /* SYTabbedHeaderView.m in Sources */,
+				F574638C200C7308008A3596 /* UIViewController+UploadImage.m in Sources */,
 				297FE1F81FE56FD6005A82FD /* FCDatePickerView.m in Sources */,
 				F5F790D41FD98BA9006CEF69 /* SYTabbedScrollView.m in Sources */,
 				F50636B2200B142E00542BB8 /* PhotoManager.m in Sources */,
+				F574638F200C735C008A3596 /* UploadImageAlertView.m in Sources */,
 				F54F67F01FDF7C2600D78013 /* CalculatorResultModel.m in Sources */,
 				F54F67F31FDF9C2500D78013 /* UIFont+ChangeFont.m in Sources */,
 				F5F790D51FD98BA9006CEF69 /* SYTabbedView.m in Sources */,
@@ -580,8 +639,11 @@
 				F522F6942007B42700634C86 /* UITabBar+customBar.m in Sources */,
 				F5A4B2B01FDD1E4700D0BC37 /* ResultCell.m in Sources */,
 				F5E085822008E23F009A2637 /* ScanResultViewController.m in Sources */,
+				F50636B6200B557400542BB8 /* CreateViewController.m in Sources */,
 				F5C520B81FD8ED51004C071A /* AppDelegate.m in Sources */,
+				F50636BD200B5B0C00542BB8 /* MineViewController.m in Sources */,
 				F54F68051FDFB32A00D78013 /* ShowAdManager.m in Sources */,
+				F5746389200C6A32008A3596 /* QRCodeManager.m in Sources */,
 				F5E0857D2008D4D5009A2637 /* SYTabbarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -737,7 +799,7 @@
 				INFOPLIST_FILE = MortgageCalculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yaoyao.MortgageCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaoyao.QRCode;
 				PRODUCT_NAME = "二维码";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -757,7 +819,7 @@
 				INFOPLIST_FILE = MortgageCalculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yaoyao.MortgageCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaoyao.QRCode;
 				PRODUCT_NAME = "二维码";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
