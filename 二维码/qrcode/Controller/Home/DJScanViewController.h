@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DJScanViewController : UIViewController
+@interface DJScanViewController : BaseViewController
 
 @end

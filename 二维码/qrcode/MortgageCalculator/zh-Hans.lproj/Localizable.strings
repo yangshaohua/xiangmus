@@ -54,12 +54,62 @@
 
 "clear" = "清除";
 
+"clean" = "清空";
+
 "Please enter content" = "请输入内容";
 
 "QRCode" = "二维码";
 
 "create qrcode" = "生成二维码";
 
+"my" = "我的";
 
 
+"app name" = "二维码";
 
+"about qrcode" = "关于二维码";
+
+"Share" = "分享";
+
+"goto appraise" = "去评价";
+
+"create record" = "生成记录";
+
+"scan record" = "扫描记录";
+
+"Take Photo" = "拍照";
+
+"Photo Library" = "从手机相册选取";
+
+"about" = "关于";
+
+
+"Clean logo" = "清除";
+
+"History" = "历史";
+
+"appname" = "极速二维码";
+
+"Text" = "文本";
+
+"VisitCard" = "名片";
+
+"Website" = "网址";
+
+"Encryption Type" = "加密类型";
+
+"NO Encryption" = "无加密";
+
+"Name" = "姓名";
+"Tel" = "联系电话";
+"Address" = "联系地址";
+"Email" = "电子邮件";
+"CompanyName" = "公司名称";
+"Job" = "职位";
+"HomePage" = "主页";
+
+"Save Success" = "保存成功";
+
+"Save" = "保存";
+
+"Color" = "颜色";

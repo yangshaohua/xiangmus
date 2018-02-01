@@ -1,0 +1,16 @@
+/* 
+  InfoPlist.strings
+  MortgageCalculator
+
+  Created by yangshaohua on 2017/12/29.
+  Copyright © 2017年 yangshaohua. All rights reserved.
+*/
+CFBundleDisplayName = "QRCode";
+UILaunchStoryboardName = "LaunchScreen_en";
+
+
+NSCameraUsageDescription = "App Need You Allow To Access To Your Camera";
+
+NSPhotoLibraryUsageDescription = "App Need You Allow To Access To Your album";
+
+NSPhotoLibraryAddUsageDescription = "App Need You Allow To Access To Your album";

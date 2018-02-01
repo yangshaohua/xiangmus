@@ -16,6 +16,9 @@
 		F50636BD200B5B0C00542BB8 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50636BC200B5B0C00542BB8 /* MineViewController.m */; };
 		F522F6932007B42700634C86 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = F522F6902007B42700634C86 /* UITabBar+badge.m */; };
 		F522F6942007B42700634C86 /* UITabBar+customBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F522F6922007B42700634C86 /* UITabBar+customBar.m */; };
+		F529D9AC200E4B7000240D88 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = F529D9AB200E4B7000240D88 /* UIImage+Color.m */; };
+		F54D28C5200DDF2E00C43F43 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54D28C4200DDF2E00C43F43 /* AboutUsViewController.m */; };
+		F54D28C9200E03B300C43F43 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54D28C8200E03B300C43F43 /* HistoryViewController.m */; };
 		F54F67F01FDF7C2600D78013 /* CalculatorResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F54F67EF1FDF7C2600D78013 /* CalculatorResultModel.m */; };
 		F54F67F31FDF9C2500D78013 /* UIFont+ChangeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = F54F67F21FDF9C2500D78013 /* UIFont+ChangeFont.m */; };
 		F54F68001FDFB0E800D78013 /* CalculatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F54F67FF1FDFB0E200D78013 /* CalculatorManager.m */; };
@@ -28,18 +31,24 @@
 		F5746389200C6A32008A3596 /* QRCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5746388200C6A32008A3596 /* QRCodeManager.m */; };
 		F574638C200C7308008A3596 /* UIViewController+UploadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F574638A200C7307008A3596 /* UIViewController+UploadImage.m */; };
 		F574638F200C735C008A3596 /* UploadImageAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F574638E200C735C008A3596 /* UploadImageAlertView.m */; };
+		F59A6B8D2019F86F00623CB1 /* NetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A6B8C2019F86F00623CB1 /* NetViewController.m */; };
+		F59A6B902019F89A00623CB1 /* WifiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A6B8F2019F89A00623CB1 /* WifiViewController.m */; };
+		F59A6B93201A200300623CB1 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A6B92201A200300623CB1 /* BaseModel.m */; };
+		F59A6B96201A328600623CB1 /* YSHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A6B95201A328600623CB1 /* YSHTextView.m */; };
+		F5A3A2ED20188F5600DF2116 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A3A2EC20188F5600DF2116 /* TextViewController.m */; };
+		F5A3A2F020188F8A00DF2116 /* MingPianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A3A2EF20188F8A00DF2116 /* MingPianViewController.m */; };
+		F5A3A2F3201892B000DF2116 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A3A2F2201892B000DF2116 /* BaseViewController.m */; };
+		F5A3A2F62018A84200DF2116 /* CreateBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A3A2F52018A84200DF2116 /* CreateBaseViewController.m */; };
 		F5A4B28B1FDCE5CE00D0BC37 /* SYListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4B2811FDCE3AF00D0BC37 /* SYListCell.m */; };
 		F5A4B28C1FDCE5D400D0BC37 /* SYListCell.h in Resources */ = {isa = PBXBuildFile; fileRef = F5A4B2801FDCE3AF00D0BC37 /* SYListCell.h */; };
-		F5A4B2A71FDD12BA00D0BC37 /* MLTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4B2A41FDD112200D0BC37 /* MLTransitionAnimation.m */; };
-		F5A4B2A81FDD12BA00D0BC37 /* UIViewController+MLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4B2A61FDD112200D0BC37 /* UIViewController+MLTransition.m */; };
-		F5A4B2A91FDD12C200D0BC37 /* MLTransitionAnimation.h in Resources */ = {isa = PBXBuildFile; fileRef = F5A4B2A31FDD112200D0BC37 /* MLTransitionAnimation.h */; };
-		F5A4B2AA1FDD12C200D0BC37 /* UIViewController+MLTransition.h in Resources */ = {isa = PBXBuildFile; fileRef = F5A4B2A51FDD112200D0BC37 /* UIViewController+MLTransition.h */; };
 		F5A4B2AD1FDD1AC100D0BC37 /* PayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4B2AC1FDD1AC100D0BC37 /* PayModel.m */; };
 		F5A4B2B01FDD1E4700D0BC37 /* ResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4B2AF1FDD1E4700D0BC37 /* ResultCell.m */; };
 		F5B616F81FF66AE400EF36C4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5B616FA1FF66AE400EF36C4 /* Localizable.strings */; };
 		F5B616FE1FF66CAB00EF36C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5B617001FF66CAB00EF36C4 /* InfoPlist.strings */; };
 		F5B6170F1FF678DA00EF36C4 /* LaunchScreen_en.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B617111FF678DA00EF36C4 /* LaunchScreen_en.storyboard */; };
 		F5B617171FF67C3000EF36C4 /* LaunchScreen_ch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B617161FF67C3000EF36C4 /* LaunchScreen_ch.storyboard */; };
+		F5BCE832201C46D500DF7E8C /* SYActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BCE831201C46D500DF7E8C /* SYActionSheetView.m */; };
+		F5BCE833201C47A100DF7E8C /* SYActionSheetView.h in Resources */ = {isa = PBXBuildFile; fileRef = F5BCE830201C46D500DF7E8C /* SYActionSheetView.h */; };
 		F5C520B81FD8ED51004C071A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C520B71FD8ED51004C071A /* AppDelegate.m */; };
 		F5C520C01FD8ED51004C071A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C520BF1FD8ED51004C071A /* Assets.xcassets */; };
 		F5E0857D2008D4D5009A2637 /* SYTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0857B2008D4D4009A2637 /* SYTabbarController.m */; };
@@ -59,6 +68,12 @@
 		F5F790D91FD98BB4006CEF69 /* SYTabbedView.h in Resources */ = {isa = PBXBuildFile; fileRef = F5F790D01FD98B17006CEF69 /* SYTabbedView.h */; };
 		F5F790E41FD98EFB006CEF69 /* SYTopNaviBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F790E21FD98EFB006CEF69 /* SYTopNaviBarView.m */; };
 		F5F790E81FDA79DD006CEF69 /* CalculatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F790E71FDA79DD006CEF69 /* CalculatorModel.m */; };
+		F5FCA145200D077700BA3C91 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FCA143200D008900BA3C91 /* UIColor+Hex.m */; };
+		F5FCA148200DC56E00BA3C91 /* MLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FCA147200DC56600BA3C91 /* MLTransition.m */; };
+		F5FCA14C200DC68900BA3C91 /* HistoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FCA14B200DC68900BA3C91 /* HistoryManager.m */; };
+		F5FCA14F200DCC5B00BA3C91 /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FCA14E200DCC5B00BA3C91 /* MyModel.m */; };
+		F5FCA153200DCDB000BA3C91 /* ColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FCA152200DCDB000BA3C91 /* ColorManager.m */; };
+		F5FCA157200DCEF400BA3C91 /* ShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FCA156200DCEF400BA3C91 /* ShareManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +96,12 @@
 		F522F6902007B42700634C86 /* UITabBar+badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+badge.m"; sourceTree = "<group>"; };
 		F522F6912007B42700634C86 /* UITabBar+customBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+customBar.h"; sourceTree = "<group>"; };
 		F522F6922007B42700634C86 /* UITabBar+customBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+customBar.m"; sourceTree = "<group>"; };
+		F529D9AA200E4B7000240D88 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		F529D9AB200E4B7000240D88 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		F54D28C3200DDF2E00C43F43 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		F54D28C4200DDF2E00C43F43 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		F54D28C7200E03B300C43F43 /* HistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		F54D28C8200E03B300C43F43 /* HistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
 		F54F67EE1FDF7C2600D78013 /* CalculatorResultModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorResultModel.h; sourceTree = "<group>"; };
 		F54F67EF1FDF7C2600D78013 /* CalculatorResultModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorResultModel.m; sourceTree = "<group>"; };
 		F54F67F11FDF9C2500D78013 /* UIFont+ChangeFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+ChangeFont.h"; sourceTree = "<group>"; };
@@ -100,14 +121,26 @@
 		F574638B200C7308008A3596 /* UIViewController+UploadImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UploadImage.h"; sourceTree = "<group>"; };
 		F574638D200C735B008A3596 /* UploadImageAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadImageAlertView.h; sourceTree = "<group>"; };
 		F574638E200C735C008A3596 /* UploadImageAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadImageAlertView.m; sourceTree = "<group>"; };
+		F59A6B8B2019F86F00623CB1 /* NetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetViewController.h; sourceTree = "<group>"; };
+		F59A6B8C2019F86F00623CB1 /* NetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetViewController.m; sourceTree = "<group>"; };
+		F59A6B8E2019F89A00623CB1 /* WifiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WifiViewController.h; sourceTree = "<group>"; };
+		F59A6B8F2019F89A00623CB1 /* WifiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WifiViewController.m; sourceTree = "<group>"; };
+		F59A6B91201A200300623CB1 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		F59A6B92201A200300623CB1 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		F59A6B94201A328600623CB1 /* YSHTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSHTextView.h; sourceTree = "<group>"; };
+		F59A6B95201A328600623CB1 /* YSHTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSHTextView.m; sourceTree = "<group>"; };
+		F5A3A2EB20188F5600DF2116 /* TextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		F5A3A2EC20188F5600DF2116 /* TextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		F5A3A2EE20188F8A00DF2116 /* MingPianViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MingPianViewController.h; sourceTree = "<group>"; };
+		F5A3A2EF20188F8A00DF2116 /* MingPianViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MingPianViewController.m; sourceTree = "<group>"; };
+		F5A3A2F1201892B000DF2116 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F5A3A2F2201892B000DF2116 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F5A3A2F42018A84200DF2116 /* CreateBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateBaseViewController.h; sourceTree = "<group>"; };
+		F5A3A2F52018A84200DF2116 /* CreateBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateBaseViewController.m; sourceTree = "<group>"; };
 		F5A4B2801FDCE3AF00D0BC37 /* SYListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYListCell.h; sourceTree = "<group>"; };
 		F5A4B2811FDCE3AF00D0BC37 /* SYListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYListCell.m; sourceTree = "<group>"; };
 		F5A4B28E1FDCE9C100D0BC37 /* NSString+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
 		F5A4B28F1FDCE9C100D0BC37 /* NSString+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
-		F5A4B2A31FDD112200D0BC37 /* MLTransitionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLTransitionAnimation.h; sourceTree = "<group>"; };
-		F5A4B2A41FDD112200D0BC37 /* MLTransitionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLTransitionAnimation.m; sourceTree = "<group>"; };
-		F5A4B2A51FDD112200D0BC37 /* UIViewController+MLTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MLTransition.h"; sourceTree = "<group>"; };
-		F5A4B2A61FDD112200D0BC37 /* UIViewController+MLTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MLTransition.m"; sourceTree = "<group>"; };
 		F5A4B2AB1FDD1AC100D0BC37 /* PayModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayModel.h; sourceTree = "<group>"; };
 		F5A4B2AC1FDD1AC100D0BC37 /* PayModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayModel.m; sourceTree = "<group>"; };
 		F5A4B2AE1FDD1E4700D0BC37 /* ResultCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultCell.h; sourceTree = "<group>"; };
@@ -118,6 +151,8 @@
 		F5B617011FF66CAC00EF36C4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		F5B617101FF678DA00EF36C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen_en.storyboard; sourceTree = "<group>"; };
 		F5B617161FF67C3000EF36C4 /* LaunchScreen_ch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen_ch.storyboard; sourceTree = "<group>"; };
+		F5BCE830201C46D500DF7E8C /* SYActionSheetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYActionSheetView.h; sourceTree = "<group>"; };
+		F5BCE831201C46D500DF7E8C /* SYActionSheetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYActionSheetView.m; sourceTree = "<group>"; };
 		F5C520B31FD8ED51004C071A /* 二维码.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "二维码.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C520B61FD8ED51004C071A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5C520B71FD8ED51004C071A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -148,6 +183,18 @@
 		F5F790E31FD98EFB006CEF69 /* SYTopNaviBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTopNaviBarView.h; sourceTree = "<group>"; };
 		F5F790E61FDA79DD006CEF69 /* CalculatorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorModel.h; sourceTree = "<group>"; };
 		F5F790E71FDA79DD006CEF69 /* CalculatorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorModel.m; sourceTree = "<group>"; };
+		F5FCA143200D008900BA3C91 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		F5FCA144200D008900BA3C91 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		F5FCA146200DC56600BA3C91 /* MLTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLTransition.h; sourceTree = "<group>"; };
+		F5FCA147200DC56600BA3C91 /* MLTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLTransition.m; sourceTree = "<group>"; };
+		F5FCA14A200DC68900BA3C91 /* HistoryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryManager.h; sourceTree = "<group>"; };
+		F5FCA14B200DC68900BA3C91 /* HistoryManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryManager.m; sourceTree = "<group>"; };
+		F5FCA14D200DCC5B00BA3C91 /* MyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		F5FCA14E200DCC5B00BA3C91 /* MyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
+		F5FCA151200DCDB000BA3C91 /* ColorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorManager.h; sourceTree = "<group>"; };
+		F5FCA152200DCDB000BA3C91 /* ColorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorManager.m; sourceTree = "<group>"; };
+		F5FCA155200DCEF400BA3C91 /* ShareManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareManager.h; sourceTree = "<group>"; };
+		F5FCA156200DCEF400BA3C91 /* ShareManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +252,7 @@
 			children = (
 				F50636B4200B557400542BB8 /* CreateViewController.h */,
 				F50636B5200B557400542BB8 /* CreateViewController.m */,
+				F5A3A2EA20188F2F00DF2116 /* CreateType */,
 			);
 			path = Create;
 			sourceTree = "<group>";
@@ -214,6 +262,8 @@
 			children = (
 				F50636BB200B5B0C00542BB8 /* MineViewController.h */,
 				F50636BC200B5B0C00542BB8 /* MineViewController.m */,
+				F54D28C6200E039A00C43F43 /* History */,
+				F54D28C2200DDF2E00C43F43 /* About */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -229,9 +279,32 @@
 			path = UITabBar;
 			sourceTree = "<group>";
 		};
+		F54D28C2200DDF2E00C43F43 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				F54D28C3200DDF2E00C43F43 /* AboutUsViewController.h */,
+				F54D28C4200DDF2E00C43F43 /* AboutUsViewController.m */,
+			);
+			name = About;
+			path = ../../../../MortgageCalculator/Controller/About;
+			sourceTree = "<group>";
+		};
+		F54D28C6200E039A00C43F43 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				F54D28C7200E03B300C43F43 /* HistoryViewController.h */,
+				F54D28C8200E03B300C43F43 /* HistoryViewController.m */,
+			);
+			name = History;
+			path = ../../../../MortgageCalculator/Controller/History;
+			sourceTree = "<group>";
+		};
 		F54F67FC1FDFB0E200D78013 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				F5FCA154200DCEE800BA3C91 /* ShareManager */,
+				F5FCA150200DCDA400BA3C91 /* ColorManager */,
+				F5FCA149200DC67B00BA3C91 /* HistoryManager */,
 				F5746386200C6A1F008A3596 /* QRCode */,
 				F50636AF200B141E00542BB8 /* PhotoManager */,
 				F54F682A1FE930B200D78013 /* ProgressHUD */,
@@ -286,9 +359,28 @@
 			path = QRCode;
 			sourceTree = "<group>";
 		};
+		F5A3A2EA20188F2F00DF2116 /* CreateType */ = {
+			isa = PBXGroup;
+			children = (
+				F5A3A2F42018A84200DF2116 /* CreateBaseViewController.h */,
+				F5A3A2F52018A84200DF2116 /* CreateBaseViewController.m */,
+				F5A3A2EB20188F5600DF2116 /* TextViewController.h */,
+				F5A3A2EC20188F5600DF2116 /* TextViewController.m */,
+				F5A3A2EE20188F8A00DF2116 /* MingPianViewController.h */,
+				F5A3A2EF20188F8A00DF2116 /* MingPianViewController.m */,
+				F59A6B8B2019F86F00623CB1 /* NetViewController.h */,
+				F59A6B8C2019F86F00623CB1 /* NetViewController.m */,
+				F59A6B8E2019F89A00623CB1 /* WifiViewController.h */,
+				F59A6B8F2019F89A00623CB1 /* WifiViewController.m */,
+			);
+			path = CreateType;
+			sourceTree = "<group>";
+		};
 		F5A4B27F1FDCE3AF00D0BC37 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F5BCE830201C46D500DF7E8C /* SYActionSheetView.h */,
+				F5BCE831201C46D500DF7E8C /* SYActionSheetView.m */,
 				F574638D200C735B008A3596 /* UploadImageAlertView.h */,
 				F574638E200C735C008A3596 /* UploadImageAlertView.m */,
 				297FE1F21FE4C232005A82FD /* FCPickerView */,
@@ -296,6 +388,8 @@
 				F5A4B2811FDCE3AF00D0BC37 /* SYListCell.m */,
 				F5A4B2AE1FDD1E4700D0BC37 /* ResultCell.h */,
 				F5A4B2AF1FDD1E4700D0BC37 /* ResultCell.m */,
+				F59A6B94201A328600623CB1 /* YSHTextView.h */,
+				F59A6B95201A328600623CB1 /* YSHTextView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,6 +406,8 @@
 				F50636B3200B554F00542BB8 /* Create */,
 				F5E0857F2008E21F009A2637 /* CreateResult */,
 				F5E0857E2008E21F009A2637 /* ScanResult */,
+				F5A3A2F1201892B000DF2116 /* BaseViewController.h */,
+				F5A3A2F2201892B000DF2116 /* BaseViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -319,6 +415,10 @@
 		F5A4B28D1FDCE9A300D0BC37 /* Categroy */ = {
 			isa = PBXGroup;
 			children = (
+				F529D9AA200E4B7000240D88 /* UIImage+Color.h */,
+				F529D9AB200E4B7000240D88 /* UIImage+Color.m */,
+				F5FCA144200D008900BA3C91 /* UIColor+Hex.h */,
+				F5FCA143200D008900BA3C91 /* UIColor+Hex.m */,
 				F522F68E2007B42700634C86 /* UITabBar */,
 				F54F68121FE3D32900D78013 /* NSDate */,
 				F5A4B28E1FDCE9C100D0BC37 /* NSString+Size.h */,
@@ -347,10 +447,8 @@
 		F5A4B2A21FDD112200D0BC37 /* MLTransition */ = {
 			isa = PBXGroup;
 			children = (
-				F5A4B2A31FDD112200D0BC37 /* MLTransitionAnimation.h */,
-				F5A4B2A41FDD112200D0BC37 /* MLTransitionAnimation.m */,
-				F5A4B2A51FDD112200D0BC37 /* UIViewController+MLTransition.h */,
-				F5A4B2A61FDD112200D0BC37 /* UIViewController+MLTransition.m */,
+				F5FCA146200DC56600BA3C91 /* MLTransition.h */,
+				F5FCA147200DC56600BA3C91 /* MLTransition.m */,
 			);
 			path = MLTransition;
 			sourceTree = "<group>";
@@ -464,8 +562,39 @@
 				F5A4B2AC1FDD1AC100D0BC37 /* PayModel.m */,
 				F54F67EE1FDF7C2600D78013 /* CalculatorResultModel.h */,
 				F54F67EF1FDF7C2600D78013 /* CalculatorResultModel.m */,
+				F5FCA14D200DCC5B00BA3C91 /* MyModel.h */,
+				F5FCA14E200DCC5B00BA3C91 /* MyModel.m */,
+				F59A6B91201A200300623CB1 /* BaseModel.h */,
+				F59A6B92201A200300623CB1 /* BaseModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F5FCA149200DC67B00BA3C91 /* HistoryManager */ = {
+			isa = PBXGroup;
+			children = (
+				F5FCA14A200DC68900BA3C91 /* HistoryManager.h */,
+				F5FCA14B200DC68900BA3C91 /* HistoryManager.m */,
+			);
+			path = HistoryManager;
+			sourceTree = "<group>";
+		};
+		F5FCA150200DCDA400BA3C91 /* ColorManager */ = {
+			isa = PBXGroup;
+			children = (
+				F5FCA151200DCDB000BA3C91 /* ColorManager.h */,
+				F5FCA152200DCDB000BA3C91 /* ColorManager.m */,
+			);
+			path = ColorManager;
+			sourceTree = "<group>";
+		};
+		F5FCA154200DCEE800BA3C91 /* ShareManager */ = {
+			isa = PBXGroup;
+			children = (
+				F5FCA155200DCEF400BA3C91 /* ShareManager.h */,
+				F5FCA156200DCEF400BA3C91 /* ShareManager.m */,
+			);
+			path = ShareManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -530,13 +659,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5BCE833201C47A100DF7E8C /* SYActionSheetView.h in Resources */,
 				F5E085832008E4CB009A2637 /* aigei_com.mp3 in Resources */,
 				F5B616F81FF66AE400EF36C4 /* Localizable.strings in Resources */,
 				F54F682E1FE930C600D78013 /* ProgressHUD.h in Resources */,
 				F54F68211FE77FB500D78013 /* lilvbiao.html in Resources */,
 				F54F68011FDFB0F100D78013 /* CalculatorManager.h in Resources */,
-				F5A4B2A91FDD12C200D0BC37 /* MLTransitionAnimation.h in Resources */,
-				F5A4B2AA1FDD12C200D0BC37 /* UIViewController+MLTransition.h in Resources */,
 				F5B617171FF67C3000EF36C4 /* LaunchScreen_ch.storyboard in Resources */,
 				F5B616FE1FF66CAB00EF36C4 /* InfoPlist.strings in Resources */,
 				F5A4B28C1FDCE5D400D0BC37 /* SYListCell.h in Resources */,
@@ -612,22 +740,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5FCA148200DC56E00BA3C91 /* MLTransition.m in Sources */,
+				F5FCA14F200DCC5B00BA3C91 /* MyModel.m in Sources */,
+				F5FCA145200D077700BA3C91 /* UIColor+Hex.m in Sources */,
 				F522F6932007B42700634C86 /* UITabBar+badge.m in Sources */,
 				F54F682D1FE930BE00D78013 /* ProgressHUD.m in Sources */,
+				F59A6B902019F89A00623CB1 /* WifiViewController.m in Sources */,
 				F54F68001FDFB0E800D78013 /* CalculatorManager.m in Sources */,
 				F5A4B2AD1FDD1AC100D0BC37 /* PayModel.m in Sources */,
-				F5A4B2A71FDD12BA00D0BC37 /* MLTransitionAnimation.m in Sources */,
-				F5A4B2A81FDD12BA00D0BC37 /* UIViewController+MLTransition.m in Sources */,
+				F5A3A2ED20188F5600DF2116 /* TextViewController.m in Sources */,
+				F5FCA14C200DC68900BA3C91 /* HistoryManager.m in Sources */,
 				F5A4B28B1FDCE5CE00D0BC37 /* SYListCell.m in Sources */,
 				F5F790E41FD98EFB006CEF69 /* SYTopNaviBarView.m in Sources */,
 				F5EE9E122007BB6B0072E6CF /* DJScanViewController.m in Sources */,
 				F50636B9200B59DC00542BB8 /* CreateResultViewController.m in Sources */,
+				F5A3A2F020188F8A00DF2116 /* MingPianViewController.m in Sources */,
 				F5F790D21FD98BA9006CEF69 /* SYTabbedHeaderItem.m in Sources */,
+				F5A3A2F3201892B000DF2116 /* BaseViewController.m in Sources */,
 				F5F790D31FD98BA9006CEF69 /* SYTabbedHeaderView.m in Sources */,
 				F574638C200C7308008A3596 /* UIViewController+UploadImage.m in Sources */,
 				297FE1F81FE56FD6005A82FD /* FCDatePickerView.m in Sources */,
+				F5A3A2F62018A84200DF2116 /* CreateBaseViewController.m in Sources */,
+				F5FCA157200DCEF400BA3C91 /* ShareManager.m in Sources */,
 				F5F790D41FD98BA9006CEF69 /* SYTabbedScrollView.m in Sources */,
 				F50636B2200B142E00542BB8 /* PhotoManager.m in Sources */,
+				F59A6B8D2019F86F00623CB1 /* NetViewController.m in Sources */,
 				F574638F200C735C008A3596 /* UploadImageAlertView.m in Sources */,
 				F54F67F01FDF7C2600D78013 /* CalculatorResultModel.m in Sources */,
 				F54F67F31FDF9C2500D78013 /* UIFont+ChangeFont.m in Sources */,
@@ -635,14 +772,21 @@
 				F5F790E81FDA79DD006CEF69 /* CalculatorModel.m in Sources */,
 				F54F68151FE3D35000D78013 /* NSDate+format.m in Sources */,
 				297FE1F51FE4C242005A82FD /* FCPickerView.m in Sources */,
+				F54D28C5200DDF2E00C43F43 /* AboutUsViewController.m in Sources */,
 				F5F790BF1FD97224006CEF69 /* main.m in Sources */,
 				F522F6942007B42700634C86 /* UITabBar+customBar.m in Sources */,
+				F59A6B93201A200300623CB1 /* BaseModel.m in Sources */,
 				F5A4B2B01FDD1E4700D0BC37 /* ResultCell.m in Sources */,
 				F5E085822008E23F009A2637 /* ScanResultViewController.m in Sources */,
 				F50636B6200B557400542BB8 /* CreateViewController.m in Sources */,
+				F54D28C9200E03B300C43F43 /* HistoryViewController.m in Sources */,
 				F5C520B81FD8ED51004C071A /* AppDelegate.m in Sources */,
+				F5FCA153200DCDB000BA3C91 /* ColorManager.m in Sources */,
 				F50636BD200B5B0C00542BB8 /* MineViewController.m in Sources */,
 				F54F68051FDFB32A00D78013 /* ShowAdManager.m in Sources */,
+				F59A6B96201A328600623CB1 /* YSHTextView.m in Sources */,
+				F529D9AC200E4B7000240D88 /* UIImage+Color.m in Sources */,
+				F5BCE832201C46D500DF7E8C /* SYActionSheetView.m in Sources */,
 				F5746389200C6A32008A3596 /* QRCodeManager.m in Sources */,
 				F5E0857D2008D4D5009A2637 /* SYTabbarController.m in Sources */,
 			);
@@ -802,7 +946,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yaoyao.QRCode;
 				PRODUCT_NAME = "二维码";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -822,7 +966,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yaoyao.QRCode;
 				PRODUCT_NAME = "二维码";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

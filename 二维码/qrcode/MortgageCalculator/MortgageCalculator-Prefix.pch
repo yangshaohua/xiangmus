@@ -18,7 +18,6 @@
 #import "CalculatorModel.h"
 #import <Masonry.h>
 #import "NSString+Size.h"
-#import "UIViewController+MLTransition.h"
 #import "PayModel.h"
 #import "CalculatorResultModel.h"
 #import <YYModel.h>
@@ -27,6 +26,13 @@
 #import "FCPickerView.h"
 #import "FCDatePickerView.h"
 #import "ProgressHUD.h"
-
+#import "HistoryManager.h"
+#import "MyModel.h"
+#import "ColorManager.h"
+#import "ShareManager.h"
+#import "UIImage+Color.h"
+#import "BaseViewController.h"
+#import "BaseModel.h"
+#import "YSHTextView.h"
 
 #endif /* PrefixHeader_pch */

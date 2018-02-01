@@ -8,8 +8,8 @@
 CFBundleDisplayName = "QRCode";
 UILaunchStoryboardName = "LaunchScreen_en";
 
+NSCameraUsageDescription = "Use your Camera to scan QRCode information";
 
-NSCameraUsageDescription = "Allow access to your camera";
+NSPhotoLibraryUsageDescription = "App Need You Allow To Access To Your album";
 
-NSPhotoLibraryUsageDescription = "Allow access to your album";
-
+NSPhotoLibraryAddUsageDescription = "App Need You Allow To Access To Your album";

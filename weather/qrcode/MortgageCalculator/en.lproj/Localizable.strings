@@ -1,0 +1,86 @@
+/* 
+  Localizable.strings
+  MortgageCalculator
+
+  Created by yangshaohua on 2017/12/29.
+  Copyright © 2017年 yangshaohua. All rights reserved.
+*/
+
+"scan" = "Scan";
+
+"create" = "Create";
+
+"mine" = "Mine";
+
+"sao yi sao" = "Scan";
+
+"scan result" = "Scan Result";
+
+
+
+"confirm" = "confirm";
+
+
+"Unable to identify QRCode in a graph" = "Unable to identify QRCode in a graph";
+
+
+"Unable to identify QRCode" = "Unable to identify";
+
+
+"handleing..." = "handleing...";
+
+
+"The QRCode can be automatically scanned by putting it into the frame" = "automatically scanned by putting it into the frame";
+
+
+"Please focus on the QRCode, wait patiently" = "Please focus on the QRCode, wait patiently";
+
+
+"cancel" = "Cancel";
+
+
+"Authorize" = "Authorize";
+
+"No Authorize" = "Not Authorize";
+
+"Please go to the settings - Privacy - Camera license" = "Please go to the settings - Privacy - Camera license";
+
+"copy" = "Copy";
+"copy success" = "Copy Success";
+
+"create" = "Create";
+
+"clear" = "clean";
+
+"Please enter content" = "Please enter content";
+
+"QRCode" = "QRCode";
+
+"create qrcode" = "Create QRCode";
+
+"my" = "My";
+
+"app name" = "QRCode";
+
+"about qrcode" = "About QRCode";
+
+"Share" = "Share";
+
+"goto appraise" = "Goto Appraise";
+
+"create record" = "Create Record";
+
+"scan record" = "Scan Record";
+
+"Take Photo" = "Take Photo";
+
+"Photo Library" = "Photo Library";
+
+"about" = "About";
+
+"Clean logo" = "Clean";
+
+
+"clean" = "clean";
+
+"History" = "History";

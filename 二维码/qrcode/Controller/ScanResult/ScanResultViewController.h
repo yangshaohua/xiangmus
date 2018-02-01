@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ScanResultViewController : UIViewController
+@interface ScanResultViewController : BaseViewController
 @property (copy, nonatomic) NSString *result;
 @end

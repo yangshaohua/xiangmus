@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CreateResultViewController : UIViewController
+@interface CreateResultViewController : BaseViewController
 @property (copy, nonatomic) NSString *result;
 @end

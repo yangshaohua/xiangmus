@@ -24,6 +24,7 @@
     if (logo != nil) {
         UIGraphicsBeginImageContext(image.size);
         [image drawInRect:CGRectMake(0, 0, image.size.width, image.size.height)];
+        [[UIImage createImageWithColor:ColorOfHex(0xffffff)] drawInRect:logoFrame];
         [logo drawInRect:logoFrame];
         UIImage *resultImage = UIGraphicsGetImageFromCurrentImageContext();
         UIGraphicsEndImageContext();
@@ -43,12 +44,14 @@
     uint32_t *rgbImageBuf = (uint32_t *)malloc(bytesPerRow * imageHeight);
     CGColorSpaceRef colorSpaceRef = CGColorSpaceCreateDeviceRGB();
     CGContextRef context = CGBitmapContextCreate(rgbImageBuf, imageWidth, imageHeight, 8, bytesPerRow, colorSpaceRef, kCGBitmapByteOrder32Little|kCGImageAlphaNoneSkipLast);
+    
     CGContextDrawImage(context, CGRectMake(0, 0, imageWidth, imageHeight), image.CGImage);
     //遍历像素, 改变像素点颜色
     int pixelNum = imageWidth * imageHeight;
     uint32_t *pCurPtr = rgbImageBuf;
     for (int i = 0; i<pixelNum; i++, pCurPtr++) {
         if ((*pCurPtr & 0xFFFFFF00) < 0x99999900) {
+
             uint8_t* ptr = (uint8_t*)pCurPtr;
             ptr[3] = red*255;
             ptr[2] = green*255;

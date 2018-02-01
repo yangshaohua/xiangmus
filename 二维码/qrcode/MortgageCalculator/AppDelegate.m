@@ -10,13 +10,20 @@
 #import "SYTabbarController.h"
 #import <Bugly/Bugly.h>
 #import "IQKeyboardManager.h"
-#import "MLTransitionAnimation.h"
+#import "MLTransition.h"
 @import GoogleMobileAds;
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(nullable NSDictionary *)launchOption{
+#warning one line to validate
+    [MLTransition validatePanBackWithMLTransitionGestureRecognizerType:MLTransitionGestureRecognizerTypePan];//or MLTransitionGestureRecognizerTypeScreenEdgePan
+    //...
+    return YES;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     //初始化 google admob
@@ -34,8 +41,6 @@
     self.window.rootViewController = navVC;
     [self.window makeKeyAndVisible];
     
-    [UIViewController setGestureEnabled:YES];
-    [UIViewController validatePanPackWithMLTransitionGestureRecognizerType:MLTransitionGestureRecognizerTypePan];
     return YES;
 }
 

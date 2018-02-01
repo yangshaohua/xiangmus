@@ -12,6 +12,8 @@
 //#import "TestBarViewController.h"
 #import "UITabBar+badge.h"
 #import "CreateViewController.h"
+#import "MineViewController.h"
+#import "HistoryViewController.h"
 @interface SYTabbarController ()
 //{
 //    SYYoupeiWebVC           *_testVC;
@@ -41,15 +43,15 @@
      //  NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
      //   BOOL bidIsOpen = [defaults objectForKey:@"bidIsOpen"];
         
-        DJScanViewController *homeViewController = [[DJScanViewController alloc] init];
-        [self setVCTabBarTitleWithVC:homeViewController title:NSLocalizedString(@"scan", nil) normalImage:[[UIImage imageNamed:@"tab_home"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectImage:[[UIImage imageNamed:@"tab_homeselected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+        CreateViewController *homeViewController = [[CreateViewController alloc] init];
+        [self setVCTabBarTitleWithVC:homeViewController title:NSLocalizedString(@"create", nil) normalImage:[[UIImage imageNamed:@"tab_order"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectImage:[[UIImage imageNamed:@"tab_orderselected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
         
-        CreateViewController *orderViewController = [[CreateViewController alloc] init];
-        [self setVCTabBarTitleWithVC:orderViewController title:NSLocalizedString(@"create", nil) normalImage:[[UIImage imageNamed:@"tab_order"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectImage:[[UIImage imageNamed:@"tab_orderselected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+        HistoryViewController *orderViewController = [[HistoryViewController alloc] init];
+        [self setVCTabBarTitleWithVC:orderViewController title:NSLocalizedString(@"History", nil) normalImage:[[UIImage imageNamed:@"history"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectImage:[[UIImage imageNamed:@"history_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
         
 
         
-         UIViewController*mineViewController = [[UIViewController alloc] init];
+        MineViewController *mineViewController = [[MineViewController alloc] init];
         [self setVCTabBarTitleWithVC:mineViewController title:NSLocalizedString(@"mine", nil) normalImage:[[UIImage imageNamed:@"tab_mine"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectImage:[[UIImage imageNamed:@"tab_mineselected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
         
         

@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CreateViewController : UIViewController
+@interface CreateViewController : BaseViewController
+/**
+ *  是否刷新
+ */
+@property (nonatomic, assign) BOOL isRefresh;
 
+/**
+ *  设置需要刷新
+ *
+ *  @param refreshState @(YES)或@(NO), 在SYTabController2中调用
+ */
+- (void)initRefreshState:(NSNumber *)refreshState;
+- (void)showIndex:(NSInteger)index;
 @end

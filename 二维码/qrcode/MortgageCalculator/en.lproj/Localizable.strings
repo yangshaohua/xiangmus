@@ -57,3 +57,57 @@
 "QRCode" = "QRCode";
 
 "create qrcode" = "Create QRCode";
+
+"my" = "My";
+
+"app name" = "QRCode";
+
+"about qrcode" = "About QRCode";
+
+"Share" = "Share";
+
+"goto appraise" = "Goto Appraise";
+
+"create record" = "Create Record";
+
+"scan record" = "Scan Record";
+
+"Take Photo" = "Take Photo";
+
+"Photo Library" = "Photo Library";
+
+"about" = "About";
+
+"Clean logo" = "Clean";
+
+
+"clean" = "clean";
+
+"History" = "History";
+
+"appname" = "Fast QRCode";
+
+"Text" = "Text";
+
+"VisitCard" = "VisitCard";
+
+"Website" = "Website";
+
+"Encryption Type" = "Encryption Type";
+
+"NO Encryption" = "NO Encryption";
+
+
+"Name" = "Name";
+"Tel" = "Tel";
+"Address" = "Address";
+"Email" = "Email";
+"CompanyName" = "CompanyName";
+"Job" = "Job";
+"HomePage" = "HomePage";
+
+"Save Success" = "Save Success";
+
+"Save" = "Save";
+
+"Color" = "Color";

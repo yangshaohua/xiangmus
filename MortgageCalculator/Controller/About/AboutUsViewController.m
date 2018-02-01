@@ -29,8 +29,6 @@
 {
     [super viewWillAppear:animated];
     
-    [[self class] setGestureEnabled:YES];
-    
     [self createUI];
 }
 
@@ -42,7 +40,7 @@
 - (void)setUpNavigation
 {
     SYTopNaviBarView *topNavi = [[SYTopNaviBarView alloc] init];
-    topNavi.titleLabel.text = @"关于";
+    topNavi.titleLabel.text = NSLocalizedString(@"about", nil);
     topNavi.titleLabel.font = [UIFont boldSystemFontOfSize:18];
     [self.view addSubview:topNavi];
     [self.view bringSubviewToFront: topNavi];
@@ -70,17 +68,16 @@
     }];
     NSString *realVer = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
 
+    NSString *name = NSLocalizedString(@"app name", nil);
     UILabel *label = [[UILabel alloc] init];
-    label.text = [NSString stringWithFormat:@"房贷计算器 %@", realVer];
+    label.text = [NSString stringWithFormat:@"%@ %@", name,realVer];
     label.textColor = ColorOfHex(0x333333);
     label.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:label];
     [label mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.mas_equalTo(self.view);
         make.top.mas_equalTo(imageview.mas_bottom).mas_offset(30);
-    }];
-    
-    
+    }];    
 }
 
 - (void)back
