@@ -32,6 +32,7 @@
 		F54F68211FE77FB500D78013 /* lilvbiao.html in Resources */ = {isa = PBXBuildFile; fileRef = F54F68191FE7702000D78013 /* lilvbiao.html */; };
 		F54F682D1FE930BE00D78013 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F54F682C1FE930B200D78013 /* ProgressHUD.m */; };
 		F54F682E1FE930C600D78013 /* ProgressHUD.h in Resources */ = {isa = PBXBuildFile; fileRef = F54F682B1FE930B200D78013 /* ProgressHUD.h */; };
+		F57F518220468ED800EE5C43 /* ShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F57F518120468ED800EE5C43 /* ShareManager.m */; };
 		F5A4B28B1FDCE5CE00D0BC37 /* SYListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4B2811FDCE3AF00D0BC37 /* SYListCell.m */; };
 		F5A4B28C1FDCE5D400D0BC37 /* SYListCell.h in Resources */ = {isa = PBXBuildFile; fileRef = F5A4B2801FDCE3AF00D0BC37 /* SYListCell.h */; };
 		F5A4B2951FDCF26000D0BC37 /* SYListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A4B2921FDCF24C00D0BC37 /* SYListViewController.m */; };
@@ -113,6 +114,8 @@
 		F54F681F1FE77D9200D78013 /* LiLvBiaoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiLvBiaoViewController.m; sourceTree = "<group>"; };
 		F54F682B1FE930B200D78013 /* ProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		F54F682C1FE930B200D78013 /* ProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		F57F518020468ED800EE5C43 /* ShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareManager.h; sourceTree = "<group>"; };
+		F57F518120468ED800EE5C43 /* ShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareManager.m; sourceTree = "<group>"; };
 		F5A4B2801FDCE3AF00D0BC37 /* SYListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYListCell.h; sourceTree = "<group>"; };
 		F5A4B2811FDCE3AF00D0BC37 /* SYListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYListCell.m; sourceTree = "<group>"; };
 		F5A4B28E1FDCE9C100D0BC37 /* NSString+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
@@ -248,6 +251,7 @@
 		F54F67FC1FDFB0E200D78013 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				F57F517F20468ED800EE5C43 /* ShareManager */,
 				F54F682A1FE930B200D78013 /* ProgressHUD */,
 				F54F68021FDFB2FF00D78013 /* ShowAD */,
 				F54F67FD1FDFB0E200D78013 /* CalculatorManager */,
@@ -298,6 +302,16 @@
 				F54F682C1FE930B200D78013 /* ProgressHUD.m */,
 			);
 			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		F57F517F20468ED800EE5C43 /* ShareManager */ = {
+			isa = PBXGroup;
+			children = (
+				F57F518020468ED800EE5C43 /* ShareManager.h */,
+				F57F518120468ED800EE5C43 /* ShareManager.m */,
+			);
+			name = ShareManager;
+			path = "../../二维码/qrcode/Manager/ShareManager";
 			sourceTree = "<group>";
 		};
 		F5A4B27F1FDCE3AF00D0BC37 /* View */ = {
@@ -625,6 +639,7 @@
 				F54F682D1FE930BE00D78013 /* ProgressHUD.m in Sources */,
 				F54F68001FDFB0E800D78013 /* CalculatorManager.m in Sources */,
 				F529D3131FFFC98B0022562D /* SYPageModel.m in Sources */,
+				F57F518220468ED800EE5C43 /* ShareManager.m in Sources */,
 				F5A4B2AD1FDD1AC100D0BC37 /* PayModel.m in Sources */,
 				F5A4B2A71FDD12BA00D0BC37 /* MLTransitionAnimation.m in Sources */,
 				F5A4B2A81FDD12BA00D0BC37 /* UIViewController+MLTransition.m in Sources */,

@@ -34,5 +34,6 @@
 #import "BaseViewController.h"
 #import "BaseModel.h"
 #import "YSHTextView.h"
+#import "ShareManager.h"
 
 #endif /* PrefixHeader_pch */

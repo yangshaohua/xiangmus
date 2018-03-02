@@ -303,6 +303,11 @@
     toolModel2.title = @"关于我们";
     [toolsArray addObject:toolModel2];
     
+    SYToolModel *toolModel3 = [[SYToolModel alloc] init];
+    toolModel3.iconUrl = @"share";
+    toolModel3.title = @"推荐给朋友";
+    [toolsArray addObject:toolModel3];
+    
     tempModel.boxArray = toolsArray;
     return tempModel;
 }
@@ -321,6 +326,11 @@
         }else if (index == 2){
             AboutUsViewController *vc = [[AboutUsViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
+        }else if (index == 3){
+            NSString *name = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"];
+            //    NSString *downloadurl = @"itms-apps://itunes.apple.com/cn/app/jie-zou-da-shi/id1335920043?mt=8";https://itunes.apple.com/cn/app/id1141301708?mt=8
+            NSString *downloadurl = @"https://itunes.apple.com/cn/app/id1330266768?mt=8";
+            [ShareManager shareWithTitle:name image:[UIImage imageNamed:@"icon 3-1"] url:downloadurl];
         }
     }];
     

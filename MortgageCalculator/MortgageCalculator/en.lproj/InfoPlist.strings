@@ -6,4 +6,4 @@
   Copyright © 2017年 yangshaohua. All rights reserved.
 */
 CFBundleDisplayName = "房贷计算器";
-UILaunchStoryboardName = "LaunchScreen_en";
+UILaunchStoryboardName = "LaunchScreen_ch";

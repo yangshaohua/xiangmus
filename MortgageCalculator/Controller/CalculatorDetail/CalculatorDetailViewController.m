@@ -344,7 +344,10 @@
         cell = [[ResultCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
-    PayModel *model = [_resultModel.payArray objectAtIndex:indexPath.row];
+    PayModel *model = nil;
+    if (indexPath.row < _resultModel.payArray.count) {
+        model = [_resultModel.payArray objectAtIndex:indexPath.row];
+    }
     [cell updateSYListCellWithCalculatorModel:model andIndex:indexPath.row + 1];
     if (indexPath.row % 2 == 0) {
         cell.contentView.backgroundColor = ColorOfHex(0xffffff);

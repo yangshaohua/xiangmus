@@ -27,6 +27,6 @@
 #import "FCPickerView.h"
 #import "FCDatePickerView.h"
 #import "ProgressHUD.h"
-
+#import "ShareManager.h"
 
 #endif /* PrefixHeader_pch */

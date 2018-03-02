@@ -21,13 +21,16 @@
     
     //初始化 google admob
     [GADMobileAds configureWithApplicationID:kADMob_AppId];
-   int hh= [GADMobileAds version];
     
     //bugly
     [self registerBugly];
     //键盘
-    [IQKeyboardManager sharedManager].enable = YES;
-    [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
+    IQKeyboardManager *keyboardManager = [IQKeyboardManager sharedManager];
+    keyboardManager.shouldResignOnTouchOutside = YES;
+//    keyboardManager.shouldShowTextFieldPlaceholder = NO;
+    keyboardManager.toolbarDoneBarButtonItemText = @"确认";
+//    [IQKeyboardManager sharedManager].enable = YES;
+//    [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     

@@ -8,7 +8,7 @@ Copyright 2016 tencent.com. All rights reserved.
 
 ## Google-Mobile-Ads-SDK
 
-Copyright 2017 Google
+Copyright 2018 Google
 
 ## IQKeyboardManager
 
