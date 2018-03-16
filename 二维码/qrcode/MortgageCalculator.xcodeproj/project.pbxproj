@@ -133,8 +133,8 @@
 		F5A3A2EC20188F5600DF2116 /* TextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 		F5A3A2EE20188F8A00DF2116 /* MingPianViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MingPianViewController.h; sourceTree = "<group>"; };
 		F5A3A2EF20188F8A00DF2116 /* MingPianViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MingPianViewController.m; sourceTree = "<group>"; };
-		F5A3A2F1201892B000DF2116 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		F5A3A2F2201892B000DF2116 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F5A3A2F1201892B000DF2116 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../../../GongJiJi/Controller/BaseViewController.h; sourceTree = "<group>"; };
+		F5A3A2F2201892B000DF2116 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../../../GongJiJi/Controller/BaseViewController.m; sourceTree = "<group>"; };
 		F5A3A2F42018A84200DF2116 /* CreateBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateBaseViewController.h; sourceTree = "<group>"; };
 		F5A3A2F52018A84200DF2116 /* CreateBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateBaseViewController.m; sourceTree = "<group>"; };
 		F5A4B2801FDCE3AF00D0BC37 /* SYListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYListCell.h; sourceTree = "<group>"; };

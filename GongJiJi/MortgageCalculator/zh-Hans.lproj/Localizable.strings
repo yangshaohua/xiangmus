@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  MortgageCalculator
+
+  Created by yangshaohua on 2017/12/29.
+  Copyright © 2017年 yangshaohua. All rights reserved.
+*/
+
+"Interest rate table" = "利率表";
+
+"TotalPay" = "还贷总款";
+
+"TotalLoad" = "贷款总额";
+
+"Interest" = "支付利息";
+
+"PayMonths" = "还款月数";
+
+"EqualInterest" = "等额本息";
+
+"EqualMoney" = "等额本金";
+
+"NO." = "期数";
+
+"Monthly" = "月供";
+
+"Momey" = "本金";
+
+"Interest" = "利息";
+
+
+"SurMoney" = "剩余本金";
+
+"Relatives, 5 star praise can unlock more functions oh" = "亲，给5星好评就能解锁更多功能哦";
+
+"NextTime" = "下次再说";
+
+"Unlock" = "立即解锁";
+
+"Please perfect the information" = "请完善信息";
