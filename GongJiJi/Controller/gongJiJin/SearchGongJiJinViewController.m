@@ -8,30 +8,52 @@
 
 #import "SearchGongJiJinViewController.h"
 
-@interface SearchGongJiJinViewController ()
-
+@interface SearchGongJiJinViewController ()<UITableViewDelegate, UITableViewDataSource>
+@property (nonatomic, strong) NSArray *dataArray;
+@property (nonatomic, strong) UITableView *tableView;
 @end
 
 @implementation SearchGongJiJinViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self setUpNavigation];
+    
+    [self initData];
+    
+    [self createUI];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setUpNavigation
+{
+    SYTopNaviBarView *topNavi = [[SYTopNaviBarView alloc] init];
+    topNavi.titleLabel.text = NSLocalizedString(@"公积金查询", nil);
+    topNavi.titleLabel.font = [UIFont boldSystemFontOfSize:18];
+    [self.view addSubview:topNavi];
+    [self.view bringSubviewToFront: topNavi];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)initData
+{
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"logintest(1).html" ofType:nil];
+    NSData *data = [[NSData alloc] initWithContentsOfFile:path];
+    NSArray *array = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
+    if (array && [array isKindOfClass:[NSArray class]]) {
+        self.dataArray = array;
+    }
 }
-*/
 
+- (void)createUI
+{
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, kNavigationHeight, kScreenSize.width, kScreenSize.height - kNavigationHeight - kTabbarHeight) style:UITableViewStyleGrouped];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    [self.view addSubview:self.tableView];
+}
+
+#pragma mark - UITableViewDelegate/Datasource
+- (void)
 @end
